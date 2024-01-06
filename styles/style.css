@@ -54,3 +54,39 @@
   font-size: 20px;
   margin: 0 auto;
 }
+
+/* failure section style start */
+
+.failure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 87px;
+  margin-left: 206px;
+  margin-right: 322px;
+  margin-top: 135px;
+}
+
+.failure-image img {
+  width: 569px;
+}
+
+.failure-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.failure-info-description {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+ul li {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px 0px;
+}
