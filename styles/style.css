@@ -99,7 +99,8 @@ ul li {
   text-align: center;
 }
 .my-plans-container,
-.positive-mindset-container {
+.positive-mindset-container,
+.footer-container {
   margin-left: 206px;
   margin-right: 322px;
   margin-top: 135px;
@@ -155,4 +156,73 @@ ul li {
   cursor: pointer;
   margin-bottom: 79px;
   border-radius: 5px;
+}
+
+/* footer style start */
+
+footer {
+  background-color: #151414;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 330px;
+  color: #fff;
+  padding-top: 130px;
+}
+
+.future-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.future-email {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.future-text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.social img {
+  width: 45px;
+  margin-top: 32px;
+}
+.social a:nth-child(2) img {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.subscribe-title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+input {
+  border: 1px solid #fff;
+  width: 325px;
+  background-color: #151414;
+  margin-top: 31px;
+  margin-bottom: 16px;
+  padding: 15px 0px;
+}
+.subscribe-btn {
+  text-align: left;
+  border-radius: 8px;
+  background: #fff;
+  padding: 20px 36px;
+  color: #f15b22;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+}
+.subscribe-btn:hover {
+  box-shadow: 5px 5px 20px rgb(211, 217, 223);
 }
