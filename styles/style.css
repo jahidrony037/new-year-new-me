@@ -98,7 +98,8 @@ ul li {
 .my-plans-title {
   text-align: center;
 }
-.my-plans-container {
+.my-plans-container,
+.positive-mindset-container {
   margin-left: 206px;
   margin-right: 322px;
   margin-top: 135px;
@@ -129,3 +130,29 @@ ul li {
 }
 
 /* positive mindset section */
+.positive-mindset-container {
+  background-image: url("../images/gradient2.png"), url("../images/watch.png");
+  background-repeat: no-repeat;
+  background-position: top center, left center;
+}
+.positive-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  margin-left: 64px;
+  padding-top: 59px;
+}
+
+.positive-btn {
+  color: #f15b22;
+  text-align: center;
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 36px;
+  border: none;
+  margin-left: 64px;
+  cursor: pointer;
+  margin-bottom: 79px;
+  border-radius: 5px;
+}
